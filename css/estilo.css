@@ -60,8 +60,8 @@ nav > a{
 }
 
 section{
-    padding: 60px 15%;
-    height: 350px;
+    padding: 40px 15%;
+    
 }
 
 .hero{
@@ -126,6 +126,7 @@ section{
 
 .titulo{
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .titulo h1{
@@ -140,17 +141,65 @@ section{
 .presentacion{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .brief{
-    width: 60%;
+    width: 65%;
 }
 
-.experiencia{
+.brief h2{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.brief p{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.brief > h2 strong{
+    text-decoration: underline;
+    text-decoration-color: #00fe9c;
+}
+
+.tiempo_experiencia{
     text-align: center;
+    width: 25%;
+}
+
+.tiempo_experiencia > h1{
+    font-size: 120px;
+    line-height: 63px;
+    background-color: #00fe9c;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.tiempo_experiencia > p{
+    font-size: 24px;
 }
 
 .datos_personales{
     display: flex;
     justify-content: space-between;
+}
+
+.etiqueta_dato{
+    font-size: 12px;
+    color: gray;
+    font-weight: 800;
+}
+
+.valor_dato{
+    font-size: 14px;
+    font-weight: 800;
+}
+
+footer{
+    background-color: #00fe9c;
 }
