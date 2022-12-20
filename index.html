@@ -50,7 +50,7 @@
         </section>
 
         <!-- EMPIEZA SECCION ACERCA DE -->
-        <section class="acerca_de">
+        <section id="acerca_de" class="acerca_de">
             <div class="titulo">
                 <h5><span>Acerca de</span></h5>
                 <h1>Conoceme Más</h1>
@@ -89,7 +89,7 @@
         </section>
 
         <!-- EMPIEZA SERVICIOS -->
-        <section class="sec_servicios">
+        <section id="servicios" class="sec_servicios">
             <div class="titulo">
                 <h5><span>¿Que hago?</span></h5>
                 <h1>Cómo puedo ayudar en tu próximo proyecto</h1>
@@ -136,7 +136,7 @@
         </section>
 
         <!-- EMPIEZA RESUME -->
-        <section>
+        <section id="resume"class="sec_resume">
             <div class="titulo">
                 <h5><span>Resume</span></h5>
                 <h1>Cómo puedo ayudar en tu próximo proyecto</h1>
@@ -199,14 +199,14 @@
                 <h2>Habilidades</h2>
                 <div class="contenedor_habilidades">
                     <div class="subcontenedor_habilidades">
-                        <div class="web_design">
+                        <div class="web_design medidas">
                             <p class="datos_habilidad">Diseño Web <span>40%</span></p>
                             <div class="progreso">
                                 <div></div>
                             </div>
                         </div>
-                        <div class="html_css">
-                            <p class="datos_habilidad">HTML/CSS<span>40%</span></p>
+                        <div class="html_css medidas">
+                            <p class="datos_habilidad">HTML/CSS<span>50%</span></p>
                             <div class="progreso">
                                 <div></div>
                             </div>
@@ -220,14 +220,14 @@
                     </div>
 
                     <div class="subcontenedor_habilidades">
-                        <div class="react_js">
+                        <div class="react_js medidas">
                             <p class="datos_habilidad">React JS<span>0%</span></p>
                             <div class="progreso">
                                 <div></div>
                             </div>
                         </div>
 
-                        <div class="angular_js">
+                        <div class="angular_js medidas">
                             <p class="datos_habilidad">Angular JS<span>0%</span>
                             <p>
                             <div class="progreso">
@@ -236,7 +236,7 @@
                         </div>
 
                         <div class="bootstrap">
-                            <p class="datos_habilidad">Bootstrap<span>10%</span></p>
+                            <p class="datos_habilidad">Bootstrap<span>15%</span></p>
                             <div class="progreso">
                                 <div></div>
                             </div>
@@ -244,12 +244,12 @@
                     </div>
                 </div>
             </div>
-
-            <button class="btn-blanco">Download CV</button>
+            <a class="btn-blanco" href="doc\Profile.pdf" download="CV" >Download CV</a>
+            
         </section>
 
         <!-- EMPIEZA PORTFOLIO -->
-        <section>
+        <section id="portfolio" class="portfolio">
             <div class="titulo">
                 <h5><span>Porfolio</span></h5>
                 <h1>Cómo puedo ayudar en tu próximo proyecto</h1>
@@ -269,8 +269,9 @@
                 <div><img src="img\karl-pawlowicz-QUHuwyNgSA0-unsplash.jpg" alt=""></div>
             </div>
         </section>
+
         <!-- EMPIEZA DATOS&CONTACTOS -->
-        <section class="datos_contactos">
+        <section id="contacto" class="datos_contactos">
             <!-- EMPIEZA DATOS -->
             <div class="datos">
                 <h1>Pongamonos en contacto</h1>
@@ -303,11 +304,9 @@
                     <input type="email" name="" id="">
 
                     <label for="">Como te puedo ayudar?</label>
-                    <textarea name="" id="" cols="30" rows="10">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
 
-        </textarea>
-
-                    <button class="btn-negro" type="submit">Enviar</button>
+                    <button class="btn-negro" type="submit">Enviar <i class="bi bi-arrow-right-short"></i></button>
                 </form>
             </div>
         </section>
