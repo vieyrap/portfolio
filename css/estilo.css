@@ -199,14 +199,17 @@ section{
 .sec_servicios{
     background-color: #f7f7f7;
 }
-.desc_servicios1{
+.desc_servicios{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .servicio{
-    width: 300px;
-    height: 225px;
+    flex: 30%;
+    padding: 0 10px;
+    padding-bottom: 15px;
     text-align: center;
 }
 
@@ -222,6 +225,37 @@ section{
 .servicio p{
     font-size: 14px;
 }
+
+.contenedor_resume{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.educacion{
+    flex: 45%;
+
+}
+
+.experiencia{
+    flex: 45%;
+    
+}
+
+.progreso {
+    background-color: #e9ecef;
+    border-radius: 10px;
+}
+
+.progreso > div {
+    background-color: #00fe9c;
+    width: 40%;
+    height: 10px;
+    border-radius: 10px;
+}
+
 
 footer{
     background-color: #00fe9c;
