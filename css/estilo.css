@@ -19,6 +19,10 @@ button{
     background-color: unset;
 }
 
+li{
+    list-style: none;
+}
+
 body{       
     font-family: 'Hind Siliguri', sans-serif;
 }
@@ -383,18 +387,44 @@ section{
 }
 
 .galeria{
-    width: 100%;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.galeria > li{
+    flex-basis: 250px;
+    position: relative;
+    cursor: pointer;
+}
+
+.galeria li img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(57, 57, 57, 0.502);
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 0.2s 0.1s ease-in-out;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-.galeria div{
-    flex: 1 1 90%;
-}
-
-.galeria img{
-    width: 300px;
+.galeria li:hover .overlay{
+    transform: scale(1);
 }
 
 .datos_contactos{
