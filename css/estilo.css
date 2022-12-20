@@ -226,24 +226,49 @@ section{
     font-size: 14px;
 }
 
-.contenedor_resume{
-    width: 100%;
+.resume{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
-.educacion{
-    flex: 45%;
-
+.contenedor_resume{
+    flex: 0 0 auto;
+    width: 45%;
+    padding: 0 15px;
 }
 
-.experiencia{
-    flex: 45%;
-    
+.subcontenedor_resume{
+    border-left: 2px solid #00fe9c;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
+.contenedor_resume h2{
+    margin-bottom: 20px;
+}
+
+.subcontenedor_resume hr{
+    border: 0;
+    height: 1px;
+    background-color: lightgray;
+    margin: 20px 0;
+}
+
+.caja_resume h3{
+    font-size: 21px;
+}
+
+.donde_resume{
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.descripcion_resume{
+    color: lightslategray;
+    font-size: 16px;
+    line-height: 24px;
+}
 .progreso {
     background-color: #e9ecef;
     border-radius: 10px;
