@@ -293,6 +293,7 @@ section{
     display: flex;
     justify-content: space-between;
 }
+
 .progreso {
     background-color: #e9ecef;
     border-radius: 10px;
@@ -315,6 +316,81 @@ section{
     
 }
 
+.navegacion_portfolio{   
+    width: 50%;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 25px;
+
+}
+
+.navegacion_portfolio a{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.galeria{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.galeria div{
+    flex: 1 1 90%;
+}
+
+.galeria img{
+    width: 300px;
+}
+
 footer{
     background-color: #00fe9c;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3rem 15%;
+}
+
+.datos{
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.datos h1{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.datos h1+p{
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 48px;
+}
+
+.datos h3{
+    font-size: 21px;
+}
+
+.datos p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.datos .redes a{
+    font-size: 26px;
+    margin: 0;
+    margin-top: 15px;
+    padding-right: 10px;
+}
+
+.contacto{
+    flex: 0 0 auto;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+
 }
