@@ -230,6 +230,7 @@ section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 .contenedor_resume{
@@ -269,6 +270,29 @@ section{
     font-size: 16px;
     line-height: 24px;
 }
+
+.habilidades{
+    margin-bottom: 20px;
+}
+
+.contenedor_habilidades{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.subcontenedor_habilidades{
+    flex: 0 0 auto;
+    width: 45%;
+    
+}
+
+.datos_habilidad{
+    display: flex;
+    justify-content: space-between;
+}
 .progreso {
     background-color: #e9ecef;
     border-radius: 10px;
@@ -280,7 +304,16 @@ section{
     height: 10px;
     border-radius: 10px;
 }
-
+.btn-blanco{
+    background-color: white;
+    color: #202428;
+    padding: 10px 30px;
+    margin-right: 25px;
+    border: 2px solid black;
+    position: absolute;
+    right: 42%;
+    
+}
 
 footer{
     background-color: #00fe9c;
